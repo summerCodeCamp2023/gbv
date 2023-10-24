@@ -8,6 +8,7 @@
     <link href="assets/css/materialize.min.css"rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Ubuntu">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -16,6 +17,9 @@
         <div class="container">
             <div class="nav-wrapper ">
                 <a class="brand-logo white-text">Voiceoftheunheard</a>
+                <a class="sidenav-trigger"data-target="mobile-demo">
+                <i class="material-icons">menu</i>
+                </a>
                 <ul class="right hide-on-med-and-down">
                     <li class="active"><a class="custom-brown-text " href="index.html">Home</a></li>
                     <li><a class="custom-brown-text" href="about.html">About</a></li>
@@ -111,7 +115,7 @@
 <script src="assets/js/materialize.min.js"></script>
 <script>
     $(document).ready(function (){
-
+        $('.sidenav').sidenav();
     });
 </script>
 </body>
