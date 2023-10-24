@@ -1,0 +1,38 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+}
+.custom-brown  {
+    background-color: #2E1503 !important;
+}
+.custom-brown-text {
+    color:#2E1503 !important;
+}
+header {
+    background-image: url("../img/header2.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 650px;
+}
+.active {
+    border-bottom: 3px solid #2E1503 !important;
+    margin-bottom: -40px !important;
+}
+.header-text {
+    margin-top: 200px;
+    margin-right: -50px !important;
+}
+section {
+    margin-top: 80px;
+}
+.justify {
+    text-align: justify;
+}
+.icon {
+    padding: 5px;
+}
+submit{
+    margin-bottom: 20px;
+}
+
+
